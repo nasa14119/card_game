@@ -51,40 +51,59 @@ This is a project for the course of _Software Construction and Decision-Making_ 
 Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
 
 #### Description
-We are trying to make this an immersive experience while being meta game. You are the main character that it's playing online poker. The consequence of your desitions fell real to you, the game will be a typical desktop screen in where you can receive emails, DMs, you can use a TUI in your terminal and be in the browser.  
+We are trying to make this an immersive experience. We achieve this being a meta game. You are the main character that it's playing online poker. The consequence of your desitions fell real to you. The game will be a typical desktop screen in where you can receive emails, DMs. You use a TUI in your terminal and use your browser to play.  
 
-For any reason you get the contact of some guys that are infiltrated in an online casino. They way they operate is that they lend you money and give you access to P&oslash;KER_FACE. This TUI gives you many exploits (that are not cheap) but increase your chances of becoming a millionaire. 
+For some reason you get the contact of some guys that are infiltrated in an online casino. They way they operate is that they lend you money and give you access to P&oslash;KER_FACE. This TUI gives you many exploits (that are not cheap) that increase your chances of becoming a millionaire. 
 
-As you play you need to keep your loans in check because this mafia guys are not messing around, and they will kill you. They also can give you access to higher bitting tables but the only problem is that when you change of table you leave behind the exploits you already bought. Other way to earn more money is that they offer you to back your bet 2x, 3x, 4x, depending, but remember that in that same proportions you can lose.
+As you play you need to keep your loans in check because this mafia guys are not messing around, and they will kill you. They also can give you access to higher bitting tables, but the only problem is that when you change tables you leave behind the exploits you already bought. Other way to earn more money is that they offer you to back your bet 2x, 3x, 4x, depending, but remember that in that same proportions you can lose.
 
-You can't also be too greedy and careless of how you cheat because the casino will ban your account if it sees your account suspicious and making you lose your exploits and money that is in your casino account at that moment.
+You can't be too greedy and careless of how you cheat because the casino will ban your account. If it sees your account suspicious will make you lose your exploits and money that is in your casino account at the moment.
 
-The idea is that you balance your cheats and money to be the richest before making the mafia boss mad and kill you. 
+The idea is that you balance your cheats and money to be the richest before making the mafia boss mad and kill you. Making the game in a way a psychological horror with a tense environment, challenging your poker skills and desition making.    
+### **Atmosphere**
+
+You are in a very dangerous situation. You must feel kind of stress that all the money can disappear in an instance. You need to stay alert for noises in your house and call the police if necessary making you don't be at ease bluing the line between if they are at your real hose or in the game. 
+
+Experience the rush of energy and dopamine on every win. As your money keeps increasing curiosity of how much more you can make? what more are you going to get away with?   
 
 #### References
 **Balatro** 
 > The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.
 > [(Steam, 2026)](https://store.steampowered.com/app/2379780/Balatro/)
 
+_Balatro_ is one of our biggest inspirations. Tested that the formula of a poker roguelike is possible and fun. The casino will be base in the design of this game. 
+![cards](assets/balatro_cards.png)
+
 **Welcome to the Game**
 > "Welcome to the Game is a creepy horror/puzzle game that takes you into the world of the Deep Web. Explore the Deep Web with the sole purpose of trying to find a Red Room, an online service / website that allows you to see and participate in interactive torture and murder" 
 > [(Steam,2026)](https://store.steampowered.com/app/485380/Welcome_to_the_Game/).
+
+This is an inspiration for a game base in hackers. The formula for the atmosphere is from how this game. You also work for hackers but be careful they are dangerous people. 
 
 **Kinitopet**
 > "KinitoPET is a psychological horror experience that takes place through Kinito, an early 2000s virtual assistant. Kinito is able to walk, talk, browse, adapt, and play games as Kinito is like no other with its adaptive technology!"
 > [(Steam,2026)](https://store.steampowered.com/app/2075070/KinitoPET/)
 
+This game has an widows UI type game, we would like something like this for our game. 
+
 **Unfriended Dark Web** 
 > The movie follows a group of friends who find a laptop that has access to the dark web, only to realize they are being watched by the original owners, a group of cybercriminal hackers.
-> [(Wikipidia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web)
-> [trailer](https://youtu.be/XenTM_C9fxM?si=j-4xl5aWnMIcub2C)
+> [(Wikipidia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web) \
+
+[**Trailer**](https://youtu.be/XenTM_C9fxM?si=j-4xl5aWnMIcub2C)
+\
+These movies is an inspiration of how to build a scary experience with meta elements.   
 ### **Gameplay**
 
-What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in the way? What tactics should the player use to overcome them?
+As previously mentioned the main objective is to make the most amount of money without dying while also being careful in how you use exploits. In practice, you have a limited number of turn that can be increase if you play your cards right. 
 
-### **Mindset**
+Leveling is the act of changing tables that resets the exploits you have but increase the money you win in each turn. And the exploits available changes base in the table. You also need to make synergies for example if you are using the exploit to change the card, you should check the history of cards played so you don't change it to one already played thus being caught.  Or if you are counting cards is a good idea that when is high you can see the next flush of cards. 
 
-What kind of mindset do you want to provoke in the player? Do you want them to feel powerful, or weak? Adventurous, or nervous? Hurried, or calm? How do you intend to provoke those emotions?
+Every game must feel unique and there is no one strategies is up to you how you manage your resources.
+
+The indicators that you are making mad the mafia boss is that some exploits can start to fail, strange things happening in your game... and then you start hearing things at home until suddenly they get to you and shut you. That is how you can lose. 
+
+For the casino it should be difficult to know if you are being caught thus the tension building tension on every turn you play and before using exploits. 
 
 ## _Technical_
 
