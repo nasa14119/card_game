@@ -111,16 +111,36 @@ For the casino it should be difficult to know if you are being caught thus the t
 
 ### **Screens**
 
-1. Title Screen
-    1. Options
-2. Level Select
-3. Game
-    1. Inventory
-    2. Assessment / Next Level
-4. End Credits
+1. [Title Screen](#title-screen)
+2. [Analytics](#analytics)
+3. [Account](#account)
+4. Game
+    1. [Main Game](#main-game)
+    2. [Terminal](#terminal)
+    3. [DMs](#dms)
+    4. [Bank](#bank)
+5. Lose Screens
+   1. [Hard Reset](#hard-reset) 
+   2. [Soft Reset](#soft-reset)
 
-_(example)_
-
+#### Title Screen
+![title screen](assets/screen_title.png)
+#### Analytics
+![analytics screen](assets/screen_analitics.png)
+#### Account
+![account screen](assets/screen_account.png)
+#### Main Game
+![main game screen](assets/screen_game.png)
+#### Terminal
+![terminal and the game](assets/screen_terminal.png)
+#### DMs
+![screen dms](assets/screen_dms.png)
+#### Bank
+![screen bank](assets/screen_bank.png)
+#### Hard Reset
+![screen lose hard reset](assets/screen_hard.png)
+#### Soft Reset
+![screen lose soft reset](assets/screen_soft.png)
 ### **Controls**
 
 How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
