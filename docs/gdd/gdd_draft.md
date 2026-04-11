@@ -3,8 +3,10 @@
 ## _Game Design Document_
 
 ---
-
-##### **Copyright notice / author information / boring legal stuff nobody likes**
+Developed by: Nicolas Amaya and Pablo Paz \
+&copy; 2026\
+\
+This is a project for the course of _Software Construction and Decision-Making_ available in GitHub base in the MIT License. 
 
 ##
 ## _Index_
@@ -48,6 +50,34 @@
 
 Sum up your game idea in 2 sentences. A kind of elevator pitch. Keep it simple!
 
+#### Description
+We are trying to make this an immersive experience while being meta game. You are the main character that it's playing online poker. The consequence of your desitions fell real to you, the game will be a typical desktop screen in where you can receive emails, DMs, you can use a TUI in your terminal and be in the browser.  
+
+For any reason you get the contact of some guys that are infiltrated in an online casino. They way they operate is that they lend you money and give you access to P&oslash;KER_FACE. This TUI gives you many exploits (that are not cheap) but increase your chances of becoming a millionaire. 
+
+As you play you need to keep your loans in check because this mafia guys are not messing around, and they will kill you. They also can give you access to higher bitting tables but the only problem is that when you change of table you leave behind the exploits you already bought. Other way to earn more money is that they offer you to back your bet 2x, 3x, 4x, depending, but remember that in that same proportions you can lose.
+
+You can't also be too greedy and careless of how you cheat because the casino will ban your account if it sees your account suspicious and making you lose your exploits and money that is in your casino account at that moment.
+
+The idea is that you balance your cheats and money to be the richest before making the mafia boss mad and kill you. 
+
+#### References
+**Balatro** 
+> The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.
+> [(Steam, 2026)](https://store.steampowered.com/app/2379780/Balatro/)
+
+**Welcome to the Game**
+> "Welcome to the Game is a creepy horror/puzzle game that takes you into the world of the Deep Web. Explore the Deep Web with the sole purpose of trying to find a Red Room, an online service / website that allows you to see and participate in interactive torture and murder" 
+> [(Steam,2026)](https://store.steampowered.com/app/485380/Welcome_to_the_Game/).
+
+**Kinitopet**
+> "KinitoPET is a psychological horror experience that takes place through Kinito, an early 2000s virtual assistant. Kinito is able to walk, talk, browse, adapt, and play games as Kinito is like no other with its adaptive technology!"
+> [(Steam,2026)](https://store.steampowered.com/app/2075070/KinitoPET/)
+
+**Unfriended Dark Web** 
+> The movie follows a group of friends who find a laptop that has access to the dark web, only to realize they are being watched by the original owners, a group of cybercriminal hackers.
+> [(Wikipidia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web)
+> [trailer](https://youtu.be/XenTM_C9fxM?si=j-4xl5aWnMIcub2C)
 ### **Gameplay**
 
 What should the gameplay be like? What is the goal of the game, and what kind of obstacles are in the way? What tactics should the player use to overcome them?
