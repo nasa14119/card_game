@@ -1,0 +1,8 @@
+# Archivo automatico mac
+.DS_Store
+# Archivos de config de editor
+.idea/*
+.vscode/*
+
+# Archivos estaticos resultantes
+dist/*
