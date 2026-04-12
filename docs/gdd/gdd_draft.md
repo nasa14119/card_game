@@ -13,16 +13,16 @@ This is a project for the course of _Software Construction and Decision-Making_ 
 
 ---
 
-1. [Index](#index)
-2. [Game Design](#game-design)
+1. [Index](#_index_)
+2. [Game Design](#_game-design_)
     1. [Summary](#summary)
     2. [Gameplay](#gameplay)
-    3. [Mindset](#mindset)
-3. [Technical](#technical)
+    3. [Atmosphere](#atmosphere)
+3. [Technical](#_technical_)
     1. [Screens](#screens)
     2. [Controls](#controls)
     3. [Mechanics](#mechanics)
-4. [Level Design](#level-design)
+4. [Level Design](#_level-design_)
     1. [Themes](#themes)
         1. Ambience
         2. Objects
@@ -30,17 +30,17 @@ This is a project for the course of _Software Construction and Decision-Making_ 
             2. Interactive
         3. Challenges
     2. [Game Flow](#game-flow)
-5. [Development](#development)
+5. [Development](#_development_)
     1. [Abstract Classes](#abstract-classes--components)
     2. [Derived Classes](#derived-classes--component-compositions)
-6. [Graphics](#graphics)
+6. [Graphics](#_graphics_)
     1. [Style Attributes](#style-attributes)
     2. [Graphics Needed](#graphics-needed)
-7. [Sounds/Music](#soundsmusic)
+7. [Sounds/Music](#_soundsmusic_)
     1. [Style Attributes](#style-attributes-1)
     2. [Sounds Needed](#sounds-needed)
     3. [Music Needed](#music-needed)
-8. [Schedule](#schedule)
+8. [Schedule](#_schedule_)
 
 ## _Game Design_
 
@@ -48,7 +48,7 @@ This is a project for the course of _Software Construction and Decision-Making_ 
 
 ### **Summary**
 
-A high-stakes poker roguelike where your money is your life. Build a deck of illegal exploits that let you manipulate cards, cheat the table, and outplay both the casino and the mafia. Take risky missions, break the rules, and push your luck but , try not to get banned, but if you lose it all, you don’t just go broke, you die .
+A high-stakes poker roguelike where your money is your life. Build a deck of illegal exploits that let you manipulate cards, cheat the table, and outplay both the casino and the mafia. Take risky missions, break the rules, and push your luck but , try not to get banned, but if you lose it all, you don’t just go broke, you die.
 
 #### Description
 We are trying to make this an immersive experience. We achieve this being a meta game. You are the main character that it's playing online poker. The consequence of your desitions fell real to you. The game will be a typical desktop screen in where you can receive emails, DMs. You use a TUI in your terminal and use your browser to play.  
@@ -80,7 +80,7 @@ _Balatro_ is one of our biggest inspirations. Tested that the formula of a poker
 
 This is an inspiration for a game base in hackers. The formula for the atmosphere is from this game, how it makes an immersive scary run. You also work for hackers but be careful they are dangerous people. 
 
-**Kinitopet**
+**KinitoPET**
 > "KinitoPET is a psychological horror experience that takes place through Kinito, an early 2000s virtual assistant. Kinito is able to walk, talk, browse, adapt, and play games as Kinito is like no other with its adaptive technology!"
 > [(Steam,2026)](https://store.steampowered.com/app/2075070/KinitoPET/)
 
@@ -88,7 +88,7 @@ This game is widows UI type game, we would like something like this for ours.
 
 **Unfriended Dark Web** 
 > The movie follows a group of friends who find a laptop that has access to the dark web, only to realize they are being watched by the original owners, a group of cybercriminal hackers.
-> [(Wikipidia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web) \
+> [(Wikipedia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web) \
 
 [**Trailer**](https://youtu.be/XenTM_C9fxM?si=j-4xl5aWnMIcub2C)
 \
@@ -363,13 +363,13 @@ _(define the main activities and the expected dates when they should be finished
         1. base player
         2. base enemy
         3. base block
-  2. base app state
-        1. game world
-        2. menu world
-2. develop player and basic block classes
+2. base app state
+      1. game world
+      2. menu world
+3. develop player and basic block classes
     1. physics / collisions
-3. find some smooth controls/physics
-4. develop other derived classes
+4. find some smooth controls/physics
+5. develop other derived classes
     1. blocks
         1. moving
         2. falling
@@ -379,11 +379,11 @@ _(define the main activities and the expected dates when they should be finished
         1. soldier
         2. rat
         3. etc.
-5. design levels
+6. design levels
     1. introduce motion/jumping
     2. introduce throwing
     3. mind the pacing, let the player play between lessons
-6. design sounds
-7. design music
+7. design sounds
+8. design music
 
 _(example)_
