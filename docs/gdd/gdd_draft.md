@@ -48,7 +48,7 @@ This is a project for the course of _Software Construction and Decision-Making_ 
 
 ### **Summary**
 
-A high-stakes poker roguelike where your money is your life. Build a deck of illegal exploits that let you manipulate cards, cheat the table, and outplay both the casino and the mafia. Take risky missions, break the rules, and push your luck—but , try not to get banned, but if you lose it all, you don’t just go broke, you die .
+A high-stakes poker roguelike where your money is your life. Build a deck of illegal exploits that let you manipulate cards, cheat the table, and outplay both the casino and the mafia. Take risky missions, break the rules, and push your luck but , try not to get banned, but if you lose it all, you don’t just go broke, you die .
 
 #### Description
 We are trying to make this an immersive experience. We achieve this being a meta game. You are the main character that it's playing online poker. The consequence of your desitions fell real to you. The game will be a typical desktop screen in where you can receive emails, DMs. You use a TUI in your terminal and use your browser to play.  
