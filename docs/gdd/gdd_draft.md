@@ -95,7 +95,7 @@ This game is widows UI type game, we would like something like this for ours.
 These movies is an inspiration of how to build a scary experience with meta elements.   
 ### **Gameplay**
 
-As previously mentioned the main objective is to make the most amount of money without dying while also being careful in how you use exploits. In practice, you have a limited number of turn that can be increase if you play your cards right. 
+As previously mentioned the main objective is to make the most amount of money without dying while also being careful in how you use exploits. In practice, you have a limited number of turns that can be increased if you play your cards right. 
 
 Leveling is the act of changing tables that resets the exploits you have but increase the money you win in each turn. And the exploits available changes base in the table. You also need to make synergies for example if you are using the exploit to change the card, you should check the history of cards played so you don't change it to one already played thus being caught.  Or if you are counting cards is a good idea that when is high you can see the next flush of cards. 
 
@@ -104,6 +104,10 @@ Every game must feel unique and there is no one strategies is up to you how you 
 The indicators that you are making mad the mafia boss is that some exploits can start to fail, strange things happening in your game... and then you start hearing things at home until suddenly they get to you and shut you. That is how you can lose. 
 
 For the casino it should be difficult to know if you are being caught thus the tension building tension on every turn you play and before using exploits. 
+
+For the TCG aspect, the exploits will work as these cards. Better exploits are harder to find and have less probability of appearing when winning in a table. Some exploits can have a small chance of disappearing of your exploit deck after being used (usually specified in the exploit description). Each exploit card will have some art representing what the exploit does.
+
+The game is mostly a roguelite experience, this meaning that losing doesn't restart your progress. In this game you have a casino account that can be banned, which means you lose your (editar esta parte cuando se sepa con certeza que se pierde en el baneo de cuenta), and then there is the roguelike part, where the mafia gets mad at you and they get to your house and end you, which means you do lose all your progress. 
 
 ## _Technical_
 
