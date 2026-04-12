@@ -78,13 +78,13 @@ _Balatro_ is one of our biggest inspirations. Tested that the formula of a poker
 > "Welcome to the Game is a creepy horror/puzzle game that takes you into the world of the Deep Web. Explore the Deep Web with the sole purpose of trying to find a Red Room, an online service / website that allows you to see and participate in interactive torture and murder" 
 > [(Steam,2026)](https://store.steampowered.com/app/485380/Welcome_to_the_Game/).
 
-This is an inspiration for a game base in hackers. The formula for the atmosphere is from how this game. You also work for hackers but be careful they are dangerous people. 
+This is an inspiration for a game base in hackers. The formula for the atmosphere is from this game, how it makes an immersive scary run. You also work for hackers but be careful they are dangerous people. 
 
 **Kinitopet**
 > "KinitoPET is a psychological horror experience that takes place through Kinito, an early 2000s virtual assistant. Kinito is able to walk, talk, browse, adapt, and play games as Kinito is like no other with its adaptive technology!"
 > [(Steam,2026)](https://store.steampowered.com/app/2075070/KinitoPET/)
 
-This game has an widows UI type game, we would like something like this for our game. 
+This game is widows UI type game, we would like something like this for ours. 
 
 **Unfriended Dark Web** 
 > The movie follows a group of friends who find a laptop that has access to the dark web, only to realize they are being watched by the original owners, a group of cybercriminal hackers.
@@ -112,19 +112,22 @@ For the casino it should be difficult to know if you are being caught thus the t
 ### **Screens**
 
 1. [Title Screen](#title-screen)
-2. [Analytics](#analytics)
-3. [Account](#account)
-4. Game
+2. [Pause Screen](#pause)
+3. [Analytics](#analytics)
+4. [Account](#account)
+5. Game
     1. [Main Game](#main-game)
     2. [Terminal](#terminal)
     3. [DMs](#dms)
     4. [Bank](#bank)
-5. Lose Screens
+6. Lose Screens
    1. [Hard Reset](#hard-reset) 
    2. [Soft Reset](#soft-reset)
 
 #### Title Screen
 ![title screen](assets/screen_title.png)
+#### Pause
+The pause page will be the content blur and a simple continue of leave button. 
 #### Analytics
 ![analytics screen](assets/screen_analitics.png)
 #### Account
@@ -141,9 +144,31 @@ For the casino it should be difficult to know if you are being caught thus the t
 ![screen lose hard reset](assets/screen_hard.png)
 #### Soft Reset
 ![screen lose soft reset](assets/screen_soft.png)
+### Backend Analytics
+
+For our game the most important aspect is the money earn at the end of the run. Also, how much time it took to do that. We time stamp the start of the run at the server level. The client send the end of run event to server. At that moment it takes the stamp and subtract to the previous one saved, we are aware that this fails to check for pauses or other edge cases, if needed a more robust implementation can be added. With the end of run event then the points are saved to the leader board table with the associated user if logged in, if not it will simply not save the run. This table must be ordered by points in an efficient way. 
+
+The idea is to trigger event that a DB controller is hearing as middleware, for the other analytics, as exploits bought and exploits use. It also works to be the source of truth of the inventory of the player's run. This makes it temper proof. 
+
+In conclusion, we will save:  
+- Time of the run
+- Exploits bought 
+- Exploits used 
+- Money win in total 
+- Money spend 
+- Total earnings
+
+We could cache some of the users data for the analytics page: 
+- His record / id of best run 
+- His time played 
+- His game played 
+- His recent history (last 20 games)
+
+To see if leaderboard table must be reordered / updated in page we cache the top 50 players to only check if the current run is better that those. The other time we check for leaderboard position if that run was a personal record. 
+
 ### **Controls**
 
-How will the player interact with the game? Will they be able to choose the controls? What kind of in-game events are they going to be able to trigger, and how? (e.g. pressing buttons, opening doors, etc.)
+Our game is base in click events the only need of a key press event (as this moment) is for the pause screen. 
 
 ### **Mechanics**
 
