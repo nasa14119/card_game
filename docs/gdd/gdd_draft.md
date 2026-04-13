@@ -170,6 +170,24 @@ We could cache some of the users data for the analytics page:
 
 To see if leaderboard table must be reordered / updated in page we cache the top 50 players to only check if the current run is better that those. The other time we check for leaderboard position if that run was a personal record. 
 
+### Event Driven Architecture 
+This is because we want a flexible system for constant change in its logic. Exploits are hearing all that is happening, also the bank and the database controller. Exploits might change the deck or the player. The bank object is the one that check if the exploit can be bought and applied the changes. As the design of the system matures the consumers and reactors are going to be assigned. 
+
+Provisional events: 
+- turn ended 
+- hard reset 
+- soft reset 
+- leave table 
+- change player 
+- deck change
+- time exceeded _(experimental)_
+- buying of exploit attempt
+- exploit used 
+
+## _*Progress end*_
+
+---
+
 ### **Controls**
 
 Our game is base in click events the only need of a key press event (as this moment) is for the pause screen. 
