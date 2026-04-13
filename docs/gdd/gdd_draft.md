@@ -1,4 +1,5 @@
 # **Gambling Problem**
+
 ### DeathSignal Productions
 
 ## _Game Design Document_
@@ -10,38 +11,55 @@ Developed by: Nicolas Amaya and Pablo Paz \
 This is a project for the course of _Software Construction and Decision-Making_ available in GitHub base in the MIT License. 
 
 ##
+
 ## _Index_
 
 ---
 
-1. [Index](#_index_)
-2. [Game Design](#_game-design_)
-    1. [Summary](#summary)
-    2. [Gameplay](#gameplay)
-    3. [Atmosphere](#atmosphere)
-3. [Technical](#_technical_)
-    1. [Screens](#screens)
-    2. [Controls](#controls)
-    3. [Mechanics](#mechanics)
-4. [Level Design](#_level-design_)
-    1. [Themes](#themes)
-        1. Ambience
-        2. Objects
-            1. Ambient
-            2. Interactive
-        3. Challenges
-    2. [Game Flow](#game-flow)
-5. [Development](#_development_)
-    1. [Abstract Classes](#abstract-classes--components)
-    2. [Derived Classes](#derived-classes--component-compositions)
-6. [Graphics](#_graphics_)
-    1. [Style Attributes](#style-attributes)
-    2. [Graphics Needed](#graphics-needed)
-7. [Sounds/Music](#_soundsmusic_)
-    1. [Style Attributes](#style-attributes-1)
-    2. [Sounds Needed](#sounds-needed)
-    3. [Music Needed](#music-needed)
-8. [Schedule](#_schedule_)
+<!-- TOC -->
+* [**Gambling Problem**](#gambling-problem)
+    * [DeathSignal Productions](#deathsignal-productions)
+  * [_Game Design Document_](#_game-design-document_)
+
+  * [_Index_](#_index_)
+  * [_Game Design_](#_game-design_)
+    * [**Summary**](#summary)
+      * [Description](#description)
+    * [**Atmosphere**](#atmosphere)
+      * [References](#references)
+    * [**Gameplay**](#gameplay)
+  * [_Technical_](#_technical_)
+    * [**Screens**](#screens)
+      * [Title Screen](#title-screen)
+      * [Pause](#pause)
+      * [Analytics](#analytics)
+      * [Account](#account)
+      * [Main Game](#main-game)
+      * [Terminal](#terminal)
+      * [DMs](#dms)
+      * [Bank](#bank)
+      * [Hard Reset](#hard-reset)
+      * [Soft Reset](#soft-reset)
+    * [Backend Analytics](#backend-analytics)
+    * [Event Driven Architecture](#event-driven-architecture-)
+  * [_*Progress end*_](#_progress-end_)
+    * [**Controls**](#controls)
+    * [**Mechanics**](#mechanics)
+  * [_Level Design_](#_level-design_)
+    * [**Themes**](#themes)
+    * [**Game Flow**](#game-flow)
+  * [_Development_](#_development_)
+    * [**Abstract Classes / Components**](#abstract-classes--components)
+    * [**Derived Classes / Component Compositions**](#derived-classes--component-compositions)
+  * [_Graphics_](#_graphics_)
+    * [**Style Attributes**](#style-attributes)
+    * [**Graphics Needed**](#graphics-needed)
+  * [_Sounds/Music_](#_soundsmusic_)
+    * [**Style Attributes**](#style-attributes-1)
+    * [**Sounds Needed**](#sounds-needed)
+    * [**Music Needed**](#music-needed)
+  * [_Schedule_](#_schedule_)
+<!-- TOC -->
 
 ## _Game Design_
 
@@ -62,6 +80,7 @@ As you play you need to keep your loans in check because this mafia guys are not
 You can't be too greedy and careless of how you cheat because the casino will ban your account. If it sees your account suspicious will make you lose your exploits and money that is in your casino account at the moment.
 
 The idea is that you balance your cheats and money to be the richest before making the mafia boss mad and kill you. Making the game in a way a psychological horror with a tense environment, challenging your poker skills and desition making.    
+
 ### **Atmosphere**
 
 You are in a very dangerous situation. You must feel kind of stress that all the money can disappear in an instance. You need to stay alert for noises in your house and call the police if necessary making you don't be at ease bluing the line between if they are at your real hose or in the game. 
@@ -69,6 +88,7 @@ You are in a very dangerous situation. You must feel kind of stress that all the
 Experience the rush of energy and dopamine on every win. As your money keeps increasing curiosity of how much more you can make? what more are you going to get away with?   
 
 #### References
+
 **Balatro** 
 > The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.
 > [(Steam, 2026)](https://store.steampowered.com/app/2379780/Balatro/)
@@ -77,24 +97,29 @@ _Balatro_ is one of our biggest inspirations. Tested that the formula of a poker
 ![cards](assets/balatro_cards.png)
 
 **Welcome to the Game**
+
 > "Welcome to the Game is a creepy horror/puzzle game that takes you into the world of the Deep Web. Explore the Deep Web with the sole purpose of trying to find a Red Room, an online service / website that allows you to see and participate in interactive torture and murder" 
 > [(Steam,2026)](https://store.steampowered.com/app/485380/Welcome_to_the_Game/).
 
 This is an inspiration for a game base in hackers. The formula for the atmosphere is from this game, how it makes an immersive scary run. You also work for hackers but be careful they are dangerous people. 
 
 **KinitoPET**
+
 > "KinitoPET is a psychological horror experience that takes place through Kinito, an early 2000s virtual assistant. Kinito is able to walk, talk, browse, adapt, and play games as Kinito is like no other with its adaptive technology!"
 > [(Steam,2026)](https://store.steampowered.com/app/2075070/KinitoPET/)
 
 This game is widows UI type game, we would like something like this for ours. 
 
 **Unfriended Dark Web** 
+
 > The movie follows a group of friends who find a laptop that has access to the dark web, only to realize they are being watched by the original owners, a group of cybercriminal hackers.
 > [(Wikipedia, 2026)](https://en.wikipedia.org/wiki/Unfriended:_Dark_Web) \
 
 [**Trailer**](https://youtu.be/XenTM_C9fxM?si=j-4xl5aWnMIcub2C)
 \
+
 These movies is an inspiration of how to build a scary experience with meta elements.   
+
 ### **Gameplay**
 
 As previously mentioned the main objective is to make the most amount of money without dying while also being careful in how you use exploits. In practice, you have a limited number of turns that can be increased if you play your cards right. 
@@ -173,6 +198,7 @@ We could cache some of the users data for the analytics page:
 To see if leaderboard table must be reordered / updated in page we cache the top 50 players to only check if the current run is better that those. The other time we check for leaderboard position if that run was a personal record. 
 
 ### Event Driven Architecture 
+
 This is because we want a flexible system for constant change in its logic. Exploits are hearing all that is happening, also the bank and the database controller. Exploits might change the deck or the player. The bank object is the one that check if the exploit can be bought and applied the changes. As the design of the system matures the consumers and reactors are going to be assigned. 
 
 Provisional events: 
