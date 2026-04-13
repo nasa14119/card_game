@@ -1,4 +1,4 @@
-# **Game Name Here**
+# **Gambling Problem**
 
 ## _Game Design Document_
 
