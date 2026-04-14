@@ -176,9 +176,14 @@ The pause page will be the content blur and a simple continue of leave button.
 #### Soft Reset
 ![screen lose soft reset](assets/screen_soft.png)
 ### Game concepts and character
-![casino website](docs/gdd/assets/mesa-poker-pixilart-update.png)
-![terminal with example](docs/gdd/assets/Terminal_w_example.png)
-![Main character concept](docs/gdd/assets/MainCharacterResized.png)
+### Casino website
+![casino website](assets/mesa-poker-pixilart-update.png)
+### Termninal
+![terminal with example](assets/Terminal_w_example.png)
+### Main character
+![Main character concept](assets/MainCharacterResized.png)
+### Computer screen
+![Computer screen](assets/Computer.png)
 
 ### Backend Analytics
 
