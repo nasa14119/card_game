@@ -175,6 +175,10 @@ The pause page will be the content blur and a simple continue of leave button.
 ![screen lose hard reset](assets/screen_hard.png)
 #### Soft Reset
 ![screen lose soft reset](assets/screen_soft.png)
+### Game concepts and character
+![casino website](docs/gdd/assets/mesa-poker-pixilart update.png)
+![terminal with example](docs/gdd/assets/Terminal w_example.png)
+
 ### Backend Analytics
 
 For our game the most important aspect is the money earn at the end of the run. Also, how much time it took to do that. We time stamp the start of the run at the server level. The client send the end of run event to server. At that moment it takes the stamp and subtract to the previous one saved, we are aware that this fails to check for pauses or other edge cases, if needed a more robust implementation can be added. With the end of run event then the points are saved to the leader board table with the associated user if logged in, if not it will simply not save the run. This table must be ordered by points in an efficient way. 
